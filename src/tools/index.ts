@@ -1,10 +1,9 @@
 
 // ---------- import Local Tools
-// import { customs } from './customs';
+import { customs } from './customs';
 import { base } from './base';
 
 export const tools = {
-  // customs,
+  customs,
   ...base,
 };
-
