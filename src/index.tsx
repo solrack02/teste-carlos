@@ -31,6 +31,41 @@
         
         
         () => <>{/*elements library*/}</>, 
+        
+
+        (...args: any) => <Elements.Screen3 pass={{
+          pathScreen:"sc1",
+
+          styles:[
+              {
+                backgroundColor: '#101',
+                justifyContent: 'center',
+                alignItems: 'center',
+                height: '100%',
+                width: '100%',
+              }
+              ],
+
+          screenElements:[() => {
+                  const textStyle = {
+                    fontSize: 20,
+                    color: '#fff2',
+                    textAlign:'center',
+                    maxWidth: 200,
+                    // maxWidth: '200px'<= #ATTENTION: Native ERROR! No string!
+                  };
+
+                  return (
+                    <RN.Text style={textStyle}>
+                      {'Adicione Elementos nessa tela!'}
+                    </RN.Text>);
+                }],
+
+          startFunctions:[()=>{}],
+
+          args,
+        }}/>, 
+        
 
         (...args: any) => <Elements.Screen3 pass={{
           pathScreen:"sc2",
@@ -76,6 +111,39 @@ stls.height({ pass: { arrayValue: [jsvals.varReader({pass: {
 
           args,
         }}/>],
+
+          startFunctions:[()=>{}],
+
+          args,
+        }}/>, 
+
+        (...args: any) => <Elements.Screen3 pass={{
+          pathScreen:"sc3",
+
+          styles:[
+              {
+                backgroundColor: '#101',
+                justifyContent: 'center',
+                alignItems: 'center',
+                height: '100%',
+                width: '100%',
+              }
+              ],
+
+          screenElements:[() => {
+                  const textStyle = {
+                    fontSize: 20,
+                    color: '#fff2',
+                    textAlign:'center',
+                    maxWidth: 200,
+                    // maxWidth: '200px'<= #ATTENTION: Native ERROR! No string!
+                  };
+
+                  return (
+                    <RN.Text style={textStyle}>
+                      {'Adicione Elementos nessa tela!'}
+                    </RN.Text>);
+                }],
 
           startFunctions:[()=>{}],
 
