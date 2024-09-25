@@ -15,6 +15,13 @@
             "capsID": "ccc_project",
             "connID": "conn_1",
             "capsPosition": 1
+          },
+          "ccc_2": {
+            "gpID": "ggg_1",
+            "capsControlID": "ccc_2",
+            "capsID": "ccc_project",
+            "connID": "conn_1",
+            "capsPosition": 1
           }
         }
       }
