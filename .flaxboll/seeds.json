@@ -1,4 +1,8 @@
+
+
 {
+ 
+
   "sss_dirSystem": {
     "capsCodeInfo": {
       "1": {
@@ -46,8 +50,7 @@
       "capsUserID": "xxx1"
     }
   },
-
-  "sss_fileSystem": {
+   "sss_fileSystem": {
     "capsCodeInfo": {
       "1": {
         "capsLabel": { "pt-br": "fileSystem", "en": "fileSystem" },
@@ -95,8 +98,8 @@
       "capsUserID": "xxx1"
     }
   },
-
-  "ccc_project": {
+ 
+"ccc_project": {
     "capsCodeInfo": {
       "1": {
         "capsCodeVersionID": "1",
@@ -200,8 +203,8 @@
       "capsUserID": "xxx1"
     }
   },
-
-  "ccc_screen": {
+ 
+"ccc_screen": {
     "capsCodeInfo": {
       "1": {
         "capsVersionCreatedAt": {
@@ -305,8 +308,8 @@
       "capsID": "ccc_screen"
     }
   },
-
-  "ccc_dynView": {
+ 
+"ccc_dynView": {
     "capsCodeInfo": {
       "1": {
         "capsLabel": {
@@ -433,6 +436,7 @@
       "capsUserID": "xxx1"
     }
   },
+ 
 
   "sss_joinfreeValue": {
     "capsDB": {
@@ -472,8 +476,7 @@
       }
     }
   },
-
-  "sss_freeValue": {
+   "sss_freeValue": {
     "capsDB": {
       "capsUserID": "usrn5e3jr2CvvnDpHigA",
       "capsID": "sss_freeValue",
@@ -505,4 +508,4 @@
       }
     }
   }
-}
+ }

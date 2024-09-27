@@ -6,15 +6,15 @@
 // export { CustomListener } from './CustomListener';
 
 // export { Loader } from './Loader';
-export { Pressable3 } from './Pressable3';
+// export { Pressable3 } from './Pressable3';
 
-export { FlatList2 } from './FlatList2';
+// export { FlatList2 } from './FlatList2';
 
 export { DynView } from './DynView';
 // export { MapPlaces } from './MapPlaces';
 
 // export { IptPicker1 } from './IptPicker1';
-export { SvgView1 } from './SvgView1';
+// export { SvgView1 } from './SvgView1';
 // export { Screen1 } from './Screen1';
 export { Screen3 } from './Screen3';
 
@@ -29,8 +29,8 @@ export { Screen3 } from './Screen3';
 // export { IptTxt2 } from './IptTxt2';
 // export { IptTxtEdit } from './IptTxtEdit';
 
-export { ImageBox } from './ImageBox';
-export { Text } from './Text';
+// export { ImageBox } from './ImageBox';
+// export { Text } from './Text';
 
 // // export { expoUpdate } from './expoUpdate';
 // export { Modelo } from './Modelo';
@@ -43,10 +43,9 @@ export { Text } from './Text';
 // export { newCallback } from './newCallback';
 // export { setTimeOut } from './setTimeOut';
 
-export { ScrollBar } from './ScrollBar';
+// export { ScrollBar } from './ScrollBar';
 
 // export { Tprops_propValueTextInput } from './Tprops_propValueTextInput';
 
 // export { AutocompleteGooglePlaces } from './AutocompleteGooglePlaces';
 
-export { Watcher } from './Watcher';
