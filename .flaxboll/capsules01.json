@@ -668,7 +668,7 @@
           "capsIptCodeID": "sss_fileSystem-1",
           "capsIptCapsValue": [
             "55172132-08ab-428f-8e67-be6cb43158a8",
-            "4c160732-aff5-43fb-a75b-cb5796ecaeae"
+            "ccc_project"
           ]
         }
       },
@@ -714,10 +714,10 @@
       "capsUseConections": "1"
     }
   },
-  "4c160732-aff5-43fb-a75b-cb5796ecaeae": {
+  "ccc_project": {
     "capsType": "useCode",
     "capsDB": {
-      "capsID": "4c160732-aff5-43fb-a75b-cb5796ecaeae",
+      "capsID": "ccc_project",
       "capsPrjID": "ZmSoHUguqudKsAbdDGkf",
       "capsUserID": "ctvpFLaJmVbq4zw6fOPG",
       "capsCreatedAt": 1724369467712
@@ -780,7 +780,7 @@
           "capsParentIptID": "ccc_project-1",
           "parentData": {
             "parentConnID": "conn_1",
-            "capsParentID": "4c160732-aff5-43fb-a75b-cb5796ecaeae"
+            "capsParentID": "ccc_project"
           }
         }
       },
