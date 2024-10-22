@@ -21,9 +21,9 @@ jobs:
       - name: Read JSON file
         id: read_json
         run: |
-          tokenEas=$(jq -r '.tokenEas' src/data.json)
-          userID=$(jq -r '.userID' src/data.json)
-          projectID=$(jq -r '.projectID' src/data.json)
+          tokenEas=$(jq -r '.tokenEas' .flaxboll/data.json)
+          userID=$(jq -r '.userID' .flaxboll/data.json)
+          projectID=$(jq -r '.projectID' .flaxboll/data.json)
           echo "tokenEas=$tokenEas" >> $GITHUB_ENV
           echo "userID=$userID" >> $GITHUB_ENV
           echo "projectID=$projectID" >> $GITHUB_ENV
@@ -119,11 +119,12 @@ jobs:
         with:
           command: eas update --auto
 
-      - name: Run Firebase Script
-        env:
-            USERID: ${{ env.userID }}
-            PROJECTID: ${{ env.projectID }}
-            QR_CODE_URL: ${{ steps.preview.outputs.qr }}
+      - name: Set Firebase Qr Code
         run: |
-          node src/update-firebase.js
-    
+          curl --location 'https://fireupdateprjdata-7o72j76u5q-ue.a.run.app' \
+          --header 'Content-Type: application/json' \
+          --data "{
+              \"projectID\": \"${{ env.projectID }}\",
+              \"userID\": \"${{ env.userID }}\",
+              \"qrCodeUrl\": \"${{ steps.preview.outputs.qr }}\"
+          }"
